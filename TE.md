@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[IFTTT] -->|POST /api/alert| B(Azure App Service)
     B -->|Store alert| C[(Azure Cosmos DB)]
